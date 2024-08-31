@@ -1,0 +1,17 @@
+Instructions =>
+1. install Microsoft SQL Server Management Stduio.
+2. Import given database(AndriodRank.bacpac)
+3. change connection string in config.json file
+4. perform pip install -r requrements.txt
+5. run App.py
+
+
+Working=>
+1. First it will grab all the developers.
+2. Second it will crawl all application
+3. It will crawl all the games an will save data of games on application table in database.
+
+Note:
+	On next crawling it will just update the fileds, it will not insert data again.
+
+Thanks!
